@@ -33,14 +33,22 @@ div.calculadora {
   box-shadow: -3px -3px 10px black, 2px 2px 10px black;
 }
 
+div.calculadora button:hover {
+  background-color: #0887a6;
+  box-shadow: -3px -3px 5px black;
+}
+
 input {
   height: 70px;
-  width: 92%;
+  width: 90%;
   margin: 10px;
   border-radius: 10px;
   border: none;
-  /* border: 3px solid #41264c; */
+  border: 3px solid #41264c;
   outline-color: #41264c;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 div.calculadora .buttons {
@@ -64,9 +72,14 @@ div.calculadora button:first-child {
   margin-left: 10px;
 }
 
+div.calculadora button.btn-eq {
+  background: #6a4573;
+}
+
 @media (max-width: 600px) {
   div.calculadora {
     max-width: 350px;
+    /* max-height: 100%; */
   }
 
   div.calculadora button {
@@ -78,6 +91,7 @@ div.calculadora button:first-child {
   }
 
   input {
-    width: 90%;
+    width: 86%;
+    font-size: 20px;
   }
 }
