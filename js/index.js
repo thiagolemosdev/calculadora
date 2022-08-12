@@ -21,12 +21,30 @@ function criaCalculadora() {
     },
 
     realizaConta(el) {
-      this.display.value = eval();
+      conta = this.display.value;
+
+      try {
+        conta = eval(conta);
+
+        if (!conta) {
+          this.display.value = "Calculo invalido";
+          return;
+        }
+        this.display.value = conta;
+      } catch (e) {
+        this.display.value = "Calculo invalido";
+        return;
+      }
     },
 
     cliqueBotoes() {
       document.addEventListener("click", (e) => {
         const el = e.target;
+
+        if (this.display.value === "Calculo invalido") {
+          this.display.value = "";
+        }
+
         if (el.classList.contains("btn-num")) {
           this.btnParaDisplay(el.innerText);
         }
@@ -41,6 +59,7 @@ function criaCalculadora() {
         }
       });
     },
+
     // Utilizando dessa forma não é necessario mudar o this,
     // a arrow function mantem o o this da factory
 
