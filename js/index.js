@@ -6,6 +6,15 @@ function criaCalculadora() {
 
     inicia() {
       this.cliqueBotoes();
+      this.pressionaEnter();
+    },
+
+    pressionaEnter() {
+      this.display.addEventListener("keypress", (e) => {
+        if (e.keyCode === 13) {
+          this.realizaConta();
+        }
+      });
     },
 
     btnParaDisplay(valor) {
