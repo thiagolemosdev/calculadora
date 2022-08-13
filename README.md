@@ -10,7 +10,7 @@
   
   <img src="https://img.shields.io/github/forks/thiagolemosdev/calculadora?label=forks&message=MIT&color=131313&labelColor=323A46" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/birobirobiro/calculadora?label=stars&message=MIT&color=131313&labelColor=323A46" alt="Stars">
+  <img src="https://img.shields.io/github/stars/thiagolesmosdev/calculadora?label=stars&message=MIT&color=131313&labelColor=323A46" alt="Stars">
 </p>
 
 <h1 align="center">
