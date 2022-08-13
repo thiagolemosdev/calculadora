@@ -1,13 +1,19 @@
 function criaCalculadora() {
+  // Criando função que cria a calculadora
+
   return {
     display: document.querySelector(".display"),
     btnClear: document.querySelector(".btn-clear-display"),
-    total: 0,
+    // Pegando variavel e btnClear do DOM
 
     inicia() {
       this.cliqueBotoes();
       this.pressionaEnter();
+      // a gente utiliza sempre o this para chamar uma função ou variavel
+      // dentro da factory function
     },
+
+    // Funçao inicia claculadora que chama a função de cliques de botão
 
     pressionaEnter() {
       this.display.addEventListener("keypress", (e) => {
@@ -16,24 +22,31 @@ function criaCalculadora() {
         }
       });
     },
+    //Função que pega o clique do enter, quando clicar o enter ele chama a funçao
+    // Realiza conta
 
     btnParaDisplay(valor) {
-      console.log((this.display.value = this.display.value += valor));
+      this.display.value = this.display.value += valor;
     },
+    // Funçao que atribui o valor ao display(input), da calculadora.
 
     clearDisplay() {
       this.display.value = "";
     },
+    // Função que limpa o input
 
     apagaUltimo() {
       this.display.value = this.display.value.slice(0, -1);
     },
+    //Funçao que apaga o ultimo valor do input, ultimo caractere
 
     realizaConta(el) {
       conta = this.display.value;
+      // atribuindo valor da variavel conta
 
       try {
         conta = eval(conta);
+        // fazendo a conta
 
         if (!conta) {
           this.display.value = "Calculo invalido";
@@ -44,7 +57,10 @@ function criaCalculadora() {
         this.display.value = "Calculo invalido";
         return;
       }
+
+      // utilizando try catch para tratar erros
     },
+    // função que realiza a conta
 
     cliqueBotoes() {
       document.addEventListener("click", (e) => {
@@ -68,6 +84,7 @@ function criaCalculadora() {
         }
       });
     },
+    // Funçao que pega o clique dos botoes e define o que fazer
 
     // Utilizando dessa forma não é necessario mudar o this,
     // a arrow function mantem o o this da factory
@@ -89,3 +106,4 @@ function criaCalculadora() {
 }
 const calculadora = criaCalculadora();
 calculadora.inicia();
+// Criando variavel para funçao e chamando ela
