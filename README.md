@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Calculadora" src=".github/mobile.png">
-  <img alt="Calculadora" src=".github/desktop.png.png">
+  <img alt="Calculadora" src=".github/desktop.png">
 </p>
 
 <p align="center">
