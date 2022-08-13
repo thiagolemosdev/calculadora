@@ -56,6 +56,14 @@ You can view the project through the links below:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## 🚧 Projeto:
+
+Concluido 🙌
+
+<!-- ## 🎨 Inspiração:
+
+Figma: https://www.figma.com/file/2A51gQJCk5V6LxcIh2en0b/HBO-Max-Redesign-Web-App-(Community) -->
+
 ---
 
 Made with 💙 by [Thiago Lemos](https://www.thiagolemos.tech) 👋
