@@ -1,6 +1,8 @@
+# Calculadora
+
 <p align="center">
   <img alt="Calculadora" src=".github/desktop.png">
-  <img alt="Calculadora" src=".github/mobile.png">
+  <!-- <img alt="Calculadora" src=".github/mobile.png"> -->
 </p>
 
 <p align="center">
