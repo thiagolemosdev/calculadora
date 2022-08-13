@@ -52,10 +52,6 @@ You can view the project through the links below:
 
 <!-- Remembering that you need to have a [Figma](http://figma.com/) account to access it. -->
 
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## 🚧 Projeto:
 
 Concluido 🙌
@@ -63,6 +59,10 @@ Concluido 🙌
 <!-- ## 🎨 Inspiração:
 
 Figma: https://www.figma.com/file/2A51gQJCk5V6LxcIh2en0b/HBO-Max-Redesign-Web-App-(Community) -->
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
