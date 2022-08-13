@@ -19,7 +19,7 @@
 
 <br>
 
-## Short Description
+## ✍ Short Description
 
 This is a basic calculator maked using html, css and javascript. The principal learn about this project was how to use a Factory function and constructor function.
 
