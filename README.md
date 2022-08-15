@@ -59,7 +59,7 @@ You can view the project through the links below:
 
 ## 🚧 Projeto:
 
-Concluido 🙌
+Concluded 🙌
 
 <!-- ## 🎨 Inspiração:
 
